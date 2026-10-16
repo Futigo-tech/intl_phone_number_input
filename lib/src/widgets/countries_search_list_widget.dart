@@ -48,7 +48,7 @@ class _CountrySearchListWidgetState extends State<CountrySearchListWidget> {
   @override
   void dispose() {
     _searchController.dispose();
-    super.initState();
+    super.dispose();
   }
 
   /// Returns [InputDecoration] of the search box

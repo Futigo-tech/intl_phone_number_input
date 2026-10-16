@@ -1,3 +1,7 @@
+## [0.7.5-futigo.1]
+* Futigo copy of ketanvishwakarma/intl_phone_number_input (fork of natintosh/intl_phone_number_input 0.7.5): `onNotFoundWidget`, required-field validation, "Invalid mobile number" message
+* Fixed `CountrySearchListWidget.dispose()` calling `super.initState()` instead of `super.dispose()` (error when closing the country list)
+
 ## [0.7.5]
 * Fixed bug in `AsYouTypeFormatter` that could throw a `RangeError` if the user typed non digit characters
 * **Expanded test coverage**: Added 44 comprehensive unit and widget tests
